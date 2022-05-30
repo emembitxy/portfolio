@@ -1,4 +1,6 @@
+
 *{
+	font-family: 'Roboto Mono', monospace;
 	padding:0;
 	margin:0;
 }
@@ -65,5 +67,5 @@ article:last-child{
 #contact{
 	background-color:teal;
 	display:flex;
-	
+
 }
