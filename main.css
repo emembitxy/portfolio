@@ -8,9 +8,13 @@
 
 
 header{
-	background-color:crimson;
+	background-color:EA3788;
 	display:flex;
 	flex-direction:column;
+	width:35%;
+	height:200vh;
+	position:fixed;
+	font-weight:bolder;
 
 }
 img{
@@ -19,24 +23,30 @@ img{
 	flex-direction:column;
 }
 button{
-	background-color:yellow;
+	background-color:ADE25D;
 	border-radius:30%;
 }
 button:hover{
-	background-color:blue;
+	background-color:FCEC52;
 	border-radius:50%;
 }
 a:visited{
-	background-color:black;
+	background-color:3B7080;
 
 }
 a:hover{
-	background-color:maroon;
+	background-color:C89F9C;
 }
 .first{
-	background-color:pink;
+	background-color:EF626C;
 	display:flex;
 	flex-direction:column;
+	width:65%;
+	margin-left:35%;
+	height:75vh;
+	padding-left:20px;
+	/*padding-right:20px;
+	*/
 
 
 }
@@ -46,26 +56,37 @@ a:hover{
 	justify-text:center;
 	text-align:center;
 	height:100vh;
-	width:100%;
 	font-size:2em;
+	width:65%;
+	margin-left:35%;
+	height:75vh;
+	font-weight:bolder;
+	padding-left:20px;
+
+
 
 }
 article:first-child{
-	background-color:green;
+	background-color:CE7DA5;
 
 
 }
 article:nth-child(2){
-	background-color:violet;
+	background-color:493657;
 	
 }
 article:last-child{
-	background-color:blue;
+	background-color:586994;
 	
 	
 }
 #contact{
 	background-color:teal;
 	display:flex;
+	width:65%;
+	margin-left:35%;
+	height:100px;
+	padding-left:20px;
+
 
 }
