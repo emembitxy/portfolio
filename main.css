@@ -4,89 +4,109 @@
 	padding:0;
 	margin:0;
 }
+:root{
+	--white:#EDDEA4;
+	--tangerine:#F7A072;
+	--black:black;
+	--primary:#FD96A9;
+	--secondary:grey;
 
-
+}
 
 header{
-	background-color:EA3788;
+	background-color:var(--tangerine);
 	display:flex;
 	flex-direction:column;
 	width:35%;
 	height:200vh;
 	position:fixed;
-	font-weight:bolder;
+
 
 }
-img{
-	width:100px;
+.shadow:hover{
+	box-shadow:10px 10px 8px #888888;
+	transition:all;
+}
+header h1{
+	margin:20px;
+	color:var(--black);
+	font-size:25px;
+	font-weight:bolder;
+}
+header .shadow{
+	background-color:var(--white);
+	margin:50px;
+	border-radius:15%;	
+}
+
+.firstfig{
+	margin:20px;
+}
+
+header figcaption{
+	font-size:10px;
+	margin-left:20px;
+	margin-top:-10px;
+	font-style:italic;
+}
+
+.firstfig img{
+	width:150px;
 	border-radius:50%;
 	flex-direction:column;
+	margin:5px;
 }
-button{
-	background-color:ADE25D;
-	border-radius:30%;
-}
-button:hover{
-	background-color:FCEC52;
-	border-radius:50%;
-}
-a:visited{
-	background-color:3B7080;
+header a{
+	margin:30px;
+	border:30px;
+	padding:0.5;
+	padding-bottom:50px;
+
 
 }
-a:hover{
-	background-color:C89F9C;
+
+a{
+	
+	/*border-radius:30%;*/
+	text-decoration:none;
+	/*border:20px;
+	margin-left:20px;
+	margin-bottom:20px;*/
+}
+main{
+	background-color:var(--white);
 }
 .first{
-	background-color:EF626C;
 	display:flex;
 	flex-direction:column;
-	width:65%;
+	max-width:65%;
 	margin-left:35%;
-	height:75vh;
-	padding-left:20px;
-	/*padding-right:20px;
-	*/
-
+	max-height:100vh;
+	border:20px;
+}
+.portfolio{
+	height:20vh;
+	margin:20px;
+	background-color:var(--secondary);
+	/*border-radius:10%;*/
 
 }
-.work{
+#new{
 	display:flex;
 	flex-direction:column;
-	justify-text:center;
+	max-width:65%;
+	margin-left:35%;
+	max-height:100vh;
+	border:20px;
+}
+.second{
+	display:flex;
+	flex-direction:column;
+	margin:20%;
+	max-width:50vh;
+
+}
+#new p{
 	text-align:center;
-	height:100vh;
-	font-size:2em;
-	width:65%;
-	margin-left:35%;
-	height:75vh;
-	font-weight:bolder;
-	padding-left:20px;
-
-
-
 }
-article:first-child{
-	background-color:CE7DA5;
 
-
-}
-article:nth-child(2){
-	background-color:493657;
-	
-}
-article:last-child{
-	background-color:586994;
-	
-	
-}
-#contact{
-	background-color:teal;
-	display:flex;
-	width:65%;
-	margin-left:35%;
-	height:100px;
-	padding-left:20px;
-
-
-}
