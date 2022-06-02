@@ -23,8 +23,9 @@ header{
 
 
 }
+
 .shadow:hover{
-	box-shadow:10px 10px 8px #888888;
+	box-shadow:-10px -10px 8px #888888, 10px 10px 8px #888888;
 	transition:all;
 }
 header h1{
@@ -99,13 +100,19 @@ main{
 	border-radius: 0.3em;
 
 }
-
+.portfolio:hover{
+	box-shadow:-10px -10px 8px var(--primary), 10px 10px 8px var(--primary);
+	transition:all;
+}
 #new{
 	display: flex;
 	flex-direction: column;
-	max-width: 65%;
-	margin-left: 35%;
+	max-width: 70%;
+	margin-left:35%;
 	min-height: 100vh;
+	padding: 1.5em;
+	border-radius: 0.3em;
+
 	/* border: 20px; */
 
 }
@@ -113,12 +120,19 @@ main{
 .item {
 	display: flex;
 	align-items: center;
-	margin: 2em;
+	margin: 3em;
 	gap: 1.5em;
+	background-color:var(--secondary);
+	padding: 2em;
+	border-radius: 0.3em;
 }
 
 .item figure img {
 	width: 300px;
+}
+.item:hover{
+	box-shadow:-10px -10px 8px var(--primary), 10px 10px 8px var(--primary);
+	transition:all;
 }
 
 .second{
