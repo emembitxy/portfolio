@@ -76,6 +76,7 @@ a{
 main{
 	background-color:var(--white);
 }
+
 .first{
 	display:flex;
 	flex-direction:column;
@@ -84,26 +85,47 @@ main{
 	max-height:100vh;
 	border:20px;
 }
+
+
 .portfolio{
 	height:20vh;
 	margin:20px;
 	background-color:var(--secondary);
-	/*border-radius:10%;*/
+
+	max-width: 50rem;
+	margin: 20px auto;
+
+	padding: 1.5em;
+	border-radius: 0.3em;
 
 }
+
 #new{
-	display:flex;
-	flex-direction:column;
-	max-width:65%;
-	margin-left:35%;
-	max-height:100vh;
-	border:20px;
+	display: flex;
+	flex-direction: column;
+	max-width: 65%;
+	margin-left: 35%;
+	min-height: 100vh;
+	/* border: 20px; */
+
 }
+
+.item {
+	display: flex;
+	align-items: center;
+	margin: 2em;
+	gap: 1.5em;
+}
+
+.item figure img {
+	width: 300px;
+}
+
 .second{
 	display:flex;
 	flex-direction:column;
-	margin:20%;
-	max-width:50vh;
+	/* margin:20%;
+	max-width:50vh; */
 
 }
 #new p{
