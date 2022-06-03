@@ -39,7 +39,11 @@ header .shadow{
 	margin:50px;
 	border-radius:15%;	
 }
-
+.svg{
+	/*padding:20px;*/
+	margin-left:250px;
+	/*border:40px;*/
+}
 .firstfig{
 	margin:20px;
 }
@@ -146,3 +150,20 @@ main{
 	text-align:center;
 }
 
+footer{
+	display:flex;
+	min-height:3cm;
+	background-color:var(--primary);
+	color:black;
+	margin-left:35%;
+	justify-content:center;
+	padding:40px;
+
+}
+footer p{
+	display: block;
+	color:black;
+	font-style:italic;
+	font-weight:bolder;
+	
+}
